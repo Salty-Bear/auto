@@ -11,7 +11,7 @@ import { Gift, Send, MessageCircle } from 'lucide-react';
 import { format } from 'date-fns';
 import { useToast } from '@/hooks/use-toast';
 
-const WISHES_STORAGE_KEY = 'birthdayWishesForAnshila';
+const WISHES_STORAGE_KEY = 'birthdayWishesForAnshika';
 
 export default function WishesPage() {
   const [name, setName] = useState('');
@@ -84,13 +84,13 @@ export default function WishesPage() {
       <div className="text-center p-6 bg-accent/50 rounded-lg shadow">
         <Gift className="w-16 h-16 mx-auto text-primary mb-4" />
         <h1 className="text-4xl font-bold mb-2">Birthday Wishes</h1>
-        <p className="text-lg text-foreground/80">Share your love and wishes for Anshila!</p>
+        <p className="text-lg text-foreground/80">Share your love and wishes for Anshika!</p>
       </div>
 
       <Card className="shadow-lg">
         <CardHeader>
           <CardTitle className="text-2xl">Send Your Wish</CardTitle>
-          <CardDescription>Let Anshila know you're thinking of her on her special day.</CardDescription>
+          <CardDescription>Let Anshika know you're thinking of her on her special day.</CardDescription>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-6">

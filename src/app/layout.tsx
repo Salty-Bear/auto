@@ -22,8 +22,8 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: "Anshila's Gallery",
-  description: "A special birthday portfolio for Anshila",
+  title: "Anshika's Gallery",
+  description: "A special birthday portfolio for Anshika",
 };
 
 export default function RootLayout({

@@ -28,13 +28,13 @@ export default function AboutPage() {
       <section className="text-center py-10">
         <Image
           src="https://placehold.co/150x150.png"
-          alt="Anshila"
+          alt="Anshika"
           width={150}
           height={150}
           className="rounded-full mx-auto mb-6 shadow-lg border-4 border-primary"
           data-ai-hint="portrait woman"
         />
-        <h1 className="text-4xl font-bold mb-2">About Anshila</h1>
+        <h1 className="text-4xl font-bold mb-2">About Anshika</h1>
         <p className="text-xl text-muted-foreground">Celebrating a wonderful person, inside and out.</p>
       </section>
 
@@ -48,27 +48,27 @@ export default function AboutPage() {
           <InfoItem
             icon={<Award className="w-8 h-8" />}
             title="Achievements"
-            description="Anshila is incredibly talented and has achieved so much. From academic excellence to personal milestones, her dedication shines through in everything she does. She constantly strives for growth and inspires those around her."
+            description="Anshika is incredibly talented and has achieved so much. From academic excellence to personal milestones, her dedication shines through in everything she does. She constantly strives for growth and inspires those around her."
           />
           <InfoItem
             icon={<Palette className="w-8 h-8" />}
             title="Hobbies & Passions"
-            description="With a creative spirit, Anshila enjoys [mention a hobby like painting, dancing, or playing an instrument]. She also loves [mention another hobby like reading, hiking, or cooking], bringing joy and passion to her pursuits."
+            description="With a creative spirit, Anshika enjoys [mention a hobby like painting, dancing, or playing an instrument]. She also loves [mention another hobby like reading, hiking, or cooking], bringing joy and passion to her pursuits."
           />
            <InfoItem
             icon={<Brain className="w-8 h-8" />}
             title="Curiosities & Interests"
-            description="Anshila has a curious mind and is always eager to learn. She's interested in [mention an interest like technology, psychology, or history] and enjoys exploring new ideas and perspectives."
+            description="Anshika has a curious mind and is always eager to learn. She's interested in [mention an interest like technology, psychology, or history] and enjoys exploring new ideas and perspectives."
           />
           <InfoItem
             icon={<Heart className="w-8 h-8" />}
             title="Things She Loves"
-            description="Anshila cherishes [mention something she loves, e.g., spending time with family and friends, a specific type of food or music, animals]. Her warm heart and appreciation for the simple things make her truly special."
+            description="Anshika cherishes [mention something she loves, e.g., spending time with family and friends, a specific type of food or music, animals]. Her warm heart and appreciation for the simple things make her truly special."
           />
           <InfoItem
             icon={<BookOpen className="w-8 h-8" />}
             title="A Lifelong Learner"
-            description="Always curious and eager to expand her horizons, Anshila embraces new challenges and learning opportunities with enthusiasm. Her thirst for knowledge is truly admirable."
+            description="Always curious and eager to expand her horizons, Anshika embraces new challenges and learning opportunities with enthusiasm. Her thirst for knowledge is truly admirable."
           />
         </CardContent>
       </Card>
@@ -76,7 +76,7 @@ export default function AboutPage() {
       <section className="text-center py-8">
         <h2 className="text-3xl font-semibold mb-4">Simply Amazing!</h2>
         <p className="text-lg text-foreground/80 max-w-2xl mx-auto">
-          Anshila, your kindness, intelligence, and vibrant personality make the world a brighter place.
+          Anshika, your kindness, intelligence, and vibrant personality make the world a brighter place.
           This is just a small tribute to the amazing person you are. Happy Birthday!
         </p>
         <div className="mt-6">

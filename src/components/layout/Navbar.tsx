@@ -13,7 +13,7 @@ const navItems = [
   { href: '/gallery', label: 'Gallery', icon: ImageIcon },
   { href: '/wishes', label: 'Wishes', icon: MessageSquare },
   { href: '/story-generator', label: 'Story AI', icon: Sparkles },
-  { href: '/about', label: 'About Anshila', icon: UserCircle },
+  { href: '/about', label: 'About Anshika', icon: UserCircle },
 ];
 
 export default function Navbar() {
@@ -25,7 +25,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="flex items-center gap-2 text-xl font-serif font-semibold text-primary hover:text-primary/80 transition-colors">
           <Heart className="w-7 h-7 text-pink-500" />
-          Anshila's Gallery
+          Anshika's Gallery
         </Link>
 
         {/* Desktop Navigation */}

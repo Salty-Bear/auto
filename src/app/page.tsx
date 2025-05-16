@@ -9,7 +9,7 @@ export default function HomePage() {
     <div className="space-y-12">
       <section className="text-center py-12 bg-accent/50 rounded-lg shadow-md">
         <Gift className="w-24 h-24 mx-auto text-primary mb-6" />
-        <h1 className="text-5xl font-bold mb-4">Happy Birthday, Anshila!</h1>
+        <h1 className="text-5xl font-bold mb-4">Happy Birthday, Anshika!</h1>
         <p className="text-xl text-foreground/80 mb-8 max-w-2xl mx-auto">
           Welcome to your special gallery, a place filled with love, memories, and wishes just for you.
         </p>
@@ -51,7 +51,7 @@ export default function HomePage() {
           </CardHeader>
           <CardContent>
             <p className="text-center text-lg text-foreground/90 max-w-3xl mx-auto">
-              This little corner of the internet is dedicated to celebrating you, Anshila. It's a small token of appreciation for the wonderful person you are. We hope you enjoy this journey through memories, wishes, and a bit of creative fun. Happy Birthday once again!
+              This little corner of the internet is dedicated to celebrating you, Anshika. It's a small token of appreciation for the wonderful person you are. We hope you enjoy this journey through memories, wishes, and a bit of creative fun. Happy Birthday once again!
             </p>
             <div className="mt-8 text-center">
               <Image 

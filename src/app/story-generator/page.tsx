@@ -75,7 +75,7 @@ export default function StoryGeneratorPage() {
       <div className="text-center p-6 bg-accent/50 rounded-lg shadow">
         <Wand2 className="w-16 h-16 mx-auto text-primary mb-4" />
         <h1 className="text-4xl font-bold mb-2">AI Memory Lane Story Generator</h1>
-        <p className="text-lg text-foreground/80">Let's craft a unique fictional story or poem for Anshila!</p>
+        <p className="text-lg text-foreground/80">Let's craft a unique fictional story or poem for Anshika!</p>
       </div>
 
       <div className="grid md:grid-cols-2 gap-8 items-start">
@@ -109,7 +109,7 @@ export default function StoryGeneratorPage() {
                 </Select>
               </div>
               <div>
-                <Label htmlFor="mainCharacterTrait">Anshila's Key Trait*</Label>
+                <Label htmlFor="mainCharacterTrait">Anshika's Key Trait*</Label>
                 <Input id="mainCharacterTrait" name="mainCharacterTrait" value={formData.mainCharacterTrait} onChange={handleChange} placeholder="e.g., kindness, bravery, humor" required className="bg-background" />
               </div>
               <div>

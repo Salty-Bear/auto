@@ -14,7 +14,7 @@ import {z} from 'genkit';
 const GenerateMemoryLaneInputSchema = z.object({
   theme: z.string().describe('The theme or genre of the story (e.g., fantasy, romance, adventure).'),
   tone: z.string().describe('The tone or style of the story (e.g., humorous, sentimental, epic).'),
-  mainCharacterTrait: z.string().describe('A key personality trait of Anshila to highlight in the story.'),
+  mainCharacterTrait: z.string().describe('A key personality trait of Anshika to highlight in the story.'),
   significantEvent: z.string().describe('A significant event or memory to include in the story.'),
   setting: z.string().describe('The setting or location where the story takes place.'),
   additionalDetails: z
@@ -39,11 +39,11 @@ const prompt = ai.definePrompt({
   output: {schema: GenerateMemoryLaneOutputSchema},
   prompt: `You are a creative writer specializing in personalized stories and poems.
 
-  Based on the details provided, generate a fictional story or poem that serves as a creative 'memory lane' tribute.
+  Based on the details provided, generate a fictional story or poem that serves as a creative 'memory lane' tribute for a person named Anshika.
 
   Theme: {{{theme}}}
   Tone: {{{tone}}}
-  Main Character Trait: {{{mainCharacterTrait}}}
+  Main Character (Anshika)'s Trait: {{{mainCharacterTrait}}}
   Significant Event: {{{significantEvent}}}
   Setting: {{{setting}}}
   Additional Details: {{{additionalDetails}}}
