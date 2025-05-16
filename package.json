@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+<<<<<<< HEAD
     "dev": "next dev -p 9002",
+=======
+    "dev": "next dev --turbopack -p 9002",
+>>>>>>> 1ed4f8a208265645dda02620c9cb0287533eb00c
     "genkit:dev": "genkit start -- tsx src/ai/dev.ts",
     "genkit:watch": "genkit start -- tsx --watch src/ai/dev.ts",
     "build": "next build",
@@ -61,6 +65,7 @@
     "@types/react-dom": "^18",
     "genkit-cli": "^1.8.0",
     "postcss": "^8",
+<<<<<<< HEAD
     "rimraf": "^6.0.1",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
@@ -70,4 +75,9 @@
     "not dead",
     "not op_mini all"
   ]
+=======
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+>>>>>>> 1ed4f8a208265645dda02620c9cb0287533eb00c
 }

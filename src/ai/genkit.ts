@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 'use client';
 
 // Import only browser-compatible parts of the library
@@ -9,6 +10,8 @@ export const initializeAI = () => {
   return genAI;
 };
 
+=======
+>>>>>>> 1ed4f8a208265645dda02620c9cb0287533eb00c
 import {genkit} from 'genkit';
 import {googleAI} from '@genkit-ai/googleai';
 
